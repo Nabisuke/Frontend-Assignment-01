@@ -1,0 +1,123 @@
+.custom-navbar {
+  background: linear-gradient(to right, #2196F3, #673AB7);
+}
+.logo{
+    margin-left: 200px;
+}
+.custom-navbar .logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s, filter 0.3s;
+}
+.custom-navbar .logo:hover {
+  transform: scale(1.05);
+  filter: brightness(0.95);
+}
+
+.custom-navbar .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  margin: 0 10px;
+  transition: color 0.3s;
+  font-family: 'Anton', sans-serif;
+}
+.custom-navbar .nav-link:hover {
+  color: #969696;
+}
+
+.custom-navbar .container-fluid {
+  padding: 0 20px;
+}
+
+.btn-custom-resume{
+    background-color: #88c9ff;
+}
+.btn-custom-resume:hover{
+    background-color: #3c8dff;
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pfp {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  transition: transform 0.3s ease;
+  box-shadow: 4px 4px 8px rgb(147, 54, 253);
+}
+.pfp:hover {
+  transform: scale(1.05);
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+@media (min-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+}
+.contact-title{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(138, 35, 255);
+
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin:auto;
+    margin-bottom: 10px;
+
+}
+.contact-card {
+  box-shadow: 4px 4px 8px rgb(138, 35, 255);
+  transition: transform 0.5s;
+}
+
+.contact-card:hover {
+  transform: scale(1.03);
+}
+.submit-btn{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(61, 226, 61);
+    display: block;
+    margin: 15px auto 0;
+    width: 40%;
+    border-radius: 8px;
+}
+.submit-btn:hover{
+    background-color: rgb(61, 226, 61);
+    transition: 0.3s;
+    transform: scale(1.03);
+}
+.badge{
+    background-color: #88c9ff;
+
+}
+.badge:hover{
+    background-color: #3c8dff;
+    transition: 0.3s;
+}
+.carousel-container{
+    box-shadow: 4px 4px 8px #40d3b6;
+}
+.carousel-container:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+    
